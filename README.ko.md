@@ -6,7 +6,7 @@
 [![Issues Welcome](https://img.shields.io/badge/Issues-welcome-brightgreen.svg)](../../issues/new)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-*Language: [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
+*Language: [English](README.md) | [Français](README.fr.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
 
 **AI로 소프트웨어를 만드는 데** 필요한 출발점을 간결하게 선별하고 검토했습니다. 아래 핵심 도구는 **2026-09-18** 기준으로 실제 이용 가능한 제품·서비스와 이를 뒷받침하는 공식 근거가 확인되었습니다. 종료가 알려진 서비스, 아카이브된 구현, 확인이 끝나지 않은 항목은 이 목록에서 제외했습니다.
 
@@ -241,7 +241,7 @@
 
 [이슈로 리소스를 제안하세요](../../issues/new). 모든 추가 항목은 **직접적인 관련성, 확인 가능한 공개 근거, 고유한 가치, 투명한 이용 조건·주장, 유지보수 또는 실질적인 완성도** 기준을 통과해야 합니다. 유료 제품과 제작자의 직접 제출에도 같은 기준을 적용합니다. 이해관계와 주요 제한 사항을 공개하세요. GitHub stars 수만으로 등재가 보장되지는 않습니다.
 
-[큐레이션 정책](docs/curation-policy.md)과 [기여 가이드](.github/CONTRIBUTING.md)를 읽어보세요. 기준을 명확히 충족하지 못하면 사유와 함께 반려하고, 불확실한 경우에는 이슈를 열어 두고 검토합니다. 승인된 변경은 영어·한국어·일본어에 동기화하며, 게시에 성공한 뒤에만 이슈를 닫습니다.
+[큐레이션 정책](docs/curation-policy.md)과 [기여 가이드](.github/CONTRIBUTING.md)를 읽어보세요. 기준을 명확히 충족하지 못하면 사유와 함께 반려하고, 불확실한 경우에는 이슈를 열어 두고 검토합니다. 승인된 변경은 영어·프랑스어·한국어·일본어에 동기화하며, 게시에 성공한 뒤에만 이슈를 닫습니다.
 
 주간 및 이슈 워크플로우는 Kimi 또는 Qwen과 함께 [Pi](https://pi.dev/), [Exa Search](https://exa.ai/)를 사용합니다. 구현과 메인테이너 설정은 [자동화와 구성](docs/automation.md)에 설명되어 있습니다.
 

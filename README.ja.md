@@ -6,7 +6,7 @@
 [![Issues Welcome](https://img.shields.io/badge/Issues-welcome-brightgreen.svg)](../../issues/new)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-*Language: [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
+*Language: [English](README.md) | [Français](README.fr.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
 
 **AIでソフトウェアを作る**ための、レビュー済みの簡潔な入門リストです。以下の主要ツールは **2026-09-18** 時点で利用可能なサービスや実装があり、提供元の一次情報による裏付けを確認しています。終了が判明したもの、アーカイブ済みの実装、未確認事項が残る項目はこの候補一覧から除外しています。
 
@@ -241,7 +241,7 @@
 
 [Issueでリソースを提案](../../issues/new)してください。追加には **直接的な関連性、利用可能性を示す公開情報、独自の価値、利用条件と主張の透明性、保守の継続または内容の実質的な完成度** が必要です。有料製品や開発者自身による提案にも同じ基準を適用します。関係者とのつながりと重要な制約を開示してください。GitHubのスター数だけで掲載が決まることはありません。
 
-[キュレーションポリシー](docs/curation-policy.md)と[貢献ガイド](.github/CONTRIBUTING.md)をお読みください。明確に基準を満たさないものは理由を添えて却下し、判断が難しいものはレビューのため未解決のままにします。採用した変更は英語・韓国語・日本語で同期し、公開が成功してからIssueを閉じます。
+[キュレーションポリシー](docs/curation-policy.md)と[貢献ガイド](.github/CONTRIBUTING.md)をお読みください。明確に基準を満たさないものは理由を添えて却下し、判断が難しいものはレビューのため未解決のままにします。採用した変更は英語・フランス語・韓国語・日本語で同期し、公開が成功してからIssueを閉じます。
 
 週次更新とIssueのワークフローは[Pi](https://pi.dev/)、KimiまたはQwen、[Exa Search](https://exa.ai/)を使用します。実装とメンテナー向けの操作は[自動化と設定](docs/automation.md)で説明しています。
 

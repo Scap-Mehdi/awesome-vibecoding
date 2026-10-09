@@ -52,7 +52,7 @@ test("Qwen uses the official pay-as-you-go endpoint and supports model overrides
   assert.throws(() => resolveConfig({ KIMI_API_KEY: "test", AI_MAX_TURNS: "0" }), /AI_MAX_TURNS/);
 });
 
-test("accepts matching additions in all three languages", () => {
+test("accepts matching additions in all languages", () => {
   const updated = prepareUpdates(originals(), proposal(), { requiredUrl: "https://new.example/" });
   for (const file of README_FILES) assert.match(updated[file], /New resource/);
 });

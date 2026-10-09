@@ -1,5 +1,6 @@
 const EMPTY = {
   en: "No verified changes recorded in the last 30 days.",
+  fr: "Aucun changement vérifié enregistré au cours des 30 derniers jours.",
   ko: "최근 30일 동안 기록된 검증된 변경 사항이 없습니다.",
   ja: "過去30日間に記録された検証済みの変更はありません。",
 };

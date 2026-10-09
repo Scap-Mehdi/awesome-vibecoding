@@ -6,7 +6,7 @@
 [![Issues Welcome](https://img.shields.io/badge/Issues-welcome-brightgreen.svg)](../../issues/new)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-*Language: [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
+*Language: [English](README.md) | [Français](README.fr.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
 
 A concise, reviewed starting point for **building software with AI**. The core tools below had a usable current offering and supporting first-party evidence on **2026-09-18**. Known sunsets, archived implementations, and unresolved entries are kept out of this shortlist.
 
@@ -241,7 +241,7 @@ For learning and production work, pair natural-language instructions with unders
 
 [Suggest a resource through an issue](../../issues/new). Every addition must pass **direct relevance, usable public evidence, distinct value, transparent access/claims, and maintenance or substantive completeness**. Paid products and self-submissions follow the same rules; disclose affiliations and material limitations. GitHub stars do not guarantee admission.
 
-Read the [curation policy](docs/curation-policy.md) and [contribution guide](.github/CONTRIBUTING.md). Clear failures are rejected with reasons; uncertain cases remain open for review. Accepted changes are synchronized in English, Korean, and Japanese and issues are closed only after publishing succeeds.
+Read the [curation policy](docs/curation-policy.md) and [contribution guide](.github/CONTRIBUTING.md). Clear failures are rejected with reasons; uncertain cases remain open for review. Accepted changes are synchronized in English, French, Korean, and Japanese and issues are closed only after publishing succeeds.
 
 The weekly and issue workflows use [Pi](https://pi.dev/) with Kimi or Qwen and [Exa Search](https://exa.ai/). [Automation and configuration](docs/automation.md) explains the implementation and maintainer controls.
 

@@ -2,7 +2,7 @@ import { lstat, readFile, writeFile, rename, rm } from "node:fs/promises";
 import { join } from "node:path";
 import { randomUUID } from "node:crypto";
 
-export const README_FILES = ["README.md", "README.ko.md", "README.ja.md"];
+export const README_FILES = ["README.md", "README.fr.md", "README.ko.md", "README.ja.md"];
 
 export function outputRecord(key, value) {
   if (!/^[a-z_]+$/.test(key)) throw new Error("Invalid output key");
@@ -36,7 +36,7 @@ export function prepareUpdates(originals, proposal, { requiredUrl } = {}) {
     if (proposal.edits.length) throw new Error("Non-processed results must not contain edits");
     return null;
   }
-  if (new Set(proposal.edits.map(e => e.file)).size !== 3) throw new Error("Update all three languages together");
+  if (new Set(proposal.edits.map(e => e.file)).size !== README_FILES.length) throw new Error("Update all languages together");
   const updated = { ...originals };
   for (const edit of proposal.edits) {
     if (!README_FILES.includes(edit.file)) throw new Error("Unsupported file in edit");
@@ -49,7 +49,7 @@ export function prepareUpdates(originals, proposal, { requiredUrl } = {}) {
   }
   let reference;
   for (const file of README_FILES) {
-    if (updated[file] === originals[file]) throw new Error("Update all three languages together");
+    if (updated[file] === originals[file]) throw new Error("Update all languages together");
     if (updated[file].length > 1000000) throw new Error("README size limit exceeded");
     checkTables(updated[file]);
     const before = links(originals[file]);
@@ -65,7 +65,7 @@ export function prepareUpdates(originals, proposal, { requiredUrl } = {}) {
     if (!additions.length) throw new Error("A processed result must add a resource URL");
     if (requiredUrl && !additions.includes(requiredUrl)) throw new Error("The requested URL must be added to every language");
     const signature = JSON.stringify(additions.sort());
-    if (reference !== undefined && signature !== reference) throw new Error("New resource URLs must match across all three languages");
+    if (reference !== undefined && signature !== reference) throw new Error("New resource URLs must match across all languages");
     reference = signature;
   }
   return updated;

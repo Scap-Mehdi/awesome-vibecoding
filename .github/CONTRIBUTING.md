@@ -9,13 +9,13 @@ This repository is **fully automated with AI**. Content updates, translations, a
 2. **Automatic Processing** — The system automatically:
    - Validates the URL (reachability, duplicates)
    - Checks content quality with Pi
-   - Adds the resource and generates translations (English, Korean, Japanese)
+   - Adds the resource and generates translations (English, French, Korean, Japanese)
    - Commits to main and closes the issue
 3. **Manual Review** — If auto-processing can't handle it, a `needs-review` label is added and a maintainer will use `/approve` or `/reject`
 
 ## Please Submit Issues, Not PRs
 
-This repository is AI-operated. Pi handles all content editing, formatting, and translation to ensure consistency across all three language versions. Direct PRs will cause merge conflicts with the automated pipeline.
+This repository is AI-operated. Pi handles all content editing, formatting, and translation to ensure consistency across all four language versions. Direct PRs will cause merge conflicts with the automated pipeline.
 
 ## Curation requirements
 

@@ -16,7 +16,7 @@ test("the issue form and weekly dispatch expose the same task categories", async
 });
 
 test("README provides task catalogs, four-column resource rows, and valid local anchors", async () => {
-  for (const file of ["README.md", "README.ko.md", "README.ja.md"]) {
+  for (const file of ["README.md", "README.fr.md", "README.ko.md", "README.ja.md"]) {
     const text = await read(file);
     const ids = [...text.matchAll(/<a id="([^"]+)"><\/a>/g)].map(match => match[1]);
     assert.equal(new Set(ids).size, ids.length, `${file}: duplicate explicit anchors`);

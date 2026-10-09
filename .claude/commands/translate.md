@@ -1,5 +1,5 @@
 ---
-description: Sync changes from README.md to Korean (README.ko.md) and Japanese (README.ja.md) translations.
+description: Sync changes from README.md to French (README.fr.md), Korean (README.ko.md) and Japanese (README.ja.md) translations.
 argument-hint: Specific context or task to focus on (leave empty for comprehensive update)
 ---
 
@@ -9,7 +9,7 @@ argument-hint: Specific context or task to focus on (leave empty for comprehensi
 Retranslate the entire README.md. Use when structure has significantly changed.
 
 ### 2. Incremental Sync (Default)
-Find added/modified/deleted items in README.md and apply them to the same positions in Korean/Japanese files.
+Find added/modified/deleted items in README.md and apply them to the same positions in French/Korean/Japanese files.
 
 ## Translation Guidelines
 
@@ -20,9 +20,15 @@ Find added/modified/deleted items in README.md and apply them to the same positi
 - Preserve all explicit anchor IDs and HTML comments, including catalog boundaries and recent-updates markers
 - Keep four-column resource tables, verification dates, and source ordering identical across languages
 
+### French (README.fr.md)
+- First line: `# Awesome Vibe Coding`
+- Keep language selection links: `*Langue : [English](README.md) | [Français](README.fr.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*`
+- Use French typography: guillemets « » for quotations, accented capitals (À, É, È, Ç)
+- Prefer short sentences and plain French; keep technical terms, product names, and URLs in English
+
 ### Korean (README.ko.md)
 - First line: `# Awesome Vibe Coding (한국어)`
-- Keep language selection links: `*Language: [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*`
+- Keep language selection links: `*Language: [English](README.md) | [Français](README.fr.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*`
 - Add space after **bold text** when followed by Korean characters (e.g., `**텍스트** 다음`)
 
 ### Japanese (README.ja.md)
@@ -31,15 +37,16 @@ Find added/modified/deleted items in README.md and apply them to the same positi
 
 ## Execution
 
-Use the Task tool to run two translation agents in parallel:
+Use the Task tool to run three translation agents in parallel:
 
-- Agent 1: README.md → README.ko.md (Korean)
-- Agent 2: README.md → README.ja.md (Japanese)
+- Agent 1: README.md → README.fr.md (French)
+- Agent 2: README.md → README.ko.md (Korean)
+- Agent 3: README.md → README.ja.md (Japanese)
 
 ### Incremental Sync Process (Default)
 
 Each agent:
-1. Reads both README.md and the target language file (README.ko.md or README.ja.md)
+1. Reads both README.md and the target language file (README.fr.md, README.ko.md or README.ja.md)
 2. Identifies new or modified items in README.md
 3. Locates the corresponding section/position in the target file
 4. Translates new items and inserts them at the exact same position
@@ -64,6 +71,6 @@ When new item added to README.md:
 | [**Replit**](https://replit.com/) | Build in a browser workspace | Check terms | — |
 ```
 
-→ Insert the translated item at the same position (between Lovable and Replit) in README.ko.md and README.ja.md. Retain any anchor IDs from the actual source row.
+→ Insert the translated item at the same position (between Lovable and Replit) in README.fr.md, README.ko.md and README.ja.md. Retain any anchor IDs from the actual source row.
 
 Report translation results to the user upon completion.

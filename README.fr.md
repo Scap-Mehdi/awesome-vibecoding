@@ -24,6 +24,7 @@ Un point de départ concis et vérifié pour **créer des logiciels avec l'IA**.
 
 Revues récentes et changements notables des 30 derniers jours, du plus récent au plus ancien. Une date de revue n'est **pas une date de sortie du produit**. La [revue de cycle de vie et ses preuves](docs/lifecycle-review-2026-09-18.md) détaillent ce qui a été vérifié.
 
+<!-- recent-updates:start -->
 | Vérifié le | Mise à jour | Ce qui a changé |
 |---|---|---|
 | 2026-10-04 | [VDLC](#resource-vdlc) | Ajout vérifié : cadre de cycle de vie qui traite l'intention et le contexte comme artefacts principaux, avec validation humaine au plan, à la revue et au déploiement. Guide trilingue. |
@@ -36,6 +37,7 @@ Revues récentes et changements notables des 30 derniers jours, du plus récent 
 | 2026-09-18 | [Superagent](#resource-superagent) | Ajout vérifié : espace de travail macOS pour agents de code, avec workflows navigateur et iOS. |
 | 2026-09-18 | [Publish.my](#resource-publish-my) | Ajout vérifié : publication de sites statiques orientée agents. Activation par email requise. |
 | 2026-09-18 | [Agent QA](#resource-agent-qa) | Ajout vérifié : workflows de tests web et mobile. Licence FSL-1.1-ALv2 identifiée. |
+<!-- recent-updates:end -->
 
 </details>
 
@@ -64,6 +66,7 @@ Cette page principale garde un petit nombre de points de départ distincts pour 
 
 Comprendre un dépôt, implémenter une fonctionnalité ou refactorer du code existant.
 
+<!-- catalog:code -->
 | Ressource | Quand l'utiliser | Accès / périmètre | Vérifié |
 |---|---|---|---|
 | <a id="resource-aider"></a>[**Aider**](https://github.com/Aider-AI/aider) · CLI | Pair programming en terminal avec des modèles cloud ou locaux et une intégration Git | Client open source. Coûts d'API ou de modèle local | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-aider) |
@@ -76,12 +79,14 @@ Comprendre un dépôt, implémenter une fonctionnalité ou refactorer du code ex
 | <a id="resource-kiro"></a>[**Kiro**](https://kiro.dev) · IDE | Agent de code AWS avec workflows IDE et CLI, spécifications et tests | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-kiro) |
 | <a id="resource-openai-codex-cli"></a>[**OpenAI Codex CLI**](https://openai.com/codex/) · CLI | Agent de code OpenAI qui s'exécute localement dans le terminal | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-openai-codex-cli) |
 | <a id="resource-pi"></a>[**Pi**](https://github.com/earendil-works/pi) · CLI | Agent de code en terminal, extensible et intégrable comme harnais | Client MIT. Conditions du modèle et du fournisseur séparées | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-pi) |
+<!-- /catalog:code -->
 
 <a id="apps"></a>
 ### Prototypage d'applications et d'interfaces
 
 Créer une première application ou interface à partir d'une description ou d'un design.
 
+<!-- catalog:apps -->
 | Ressource | Quand l'utiliser | Accès / périmètre | Vérifié |
 |---|---|---|---|
 | <a id="resource-bolt-new"></a>[**Bolt.new**](https://bolt.new/) · Web | Création d'applications en langage naturel, par StackBlitz | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-bolt-new) |
@@ -90,12 +95,14 @@ Créer une première application ou interface à partir d'une description ou d'u
 | <a id="resource-onlook"></a>[**Onlook**](https://www.onlook.com/) · Web | Modifier visuellement les interfaces d'une application tout en travaillant sur le code | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-onlook) |
 | <a id="resource-replit"></a>[**Replit**](https://replit.com/) · Web | Créer et itérer sur des applications avec Replit Agent | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-replit) |
 | <a id="resource-v0"></a>[**v0**](https://v0.app/) · Web | L'IA de Vercel pour générer des UI et du React | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-v0) |
+<!-- /catalog:apps -->
 
 <a id="context"></a>
 ### Contexte, spécifications et intégrations
 
 Donner aux agents des exigences, des règles, de la documentation et des données de projet connectées.
 
+<!-- catalog:context -->
 | Ressource | Quand l'utiliser | Accès / périmètre | Vérifié |
 |---|---|---|---|
 | <a id="resource-caliber"></a>[**Caliber**](https://github.com/caliber-ai-org/ai-setup) | CLI qui génère et synchronise les configurations d'agents IA pour Claude Code, Cursor et Codex | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-caliber) |
@@ -106,12 +113,14 @@ Donner aux agents des exigences, des règles, de la documentation et des donnée
 | <a id="resource-notion-mcp"></a>[**Notion MCP**](https://developers.notion.com/guides/mcp/overview) · MCP | MCP officiel hébergé pour chercher, lire et mettre à jour du contenu Notion | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-notion-mcp) |
 | <a id="resource-openspec"></a>[**OpenSpec**](https://github.com/Fission-AI/OpenSpec) | Cadre de développement piloté par les spécifications pour assistants de code IA | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-openspec) |
 | <a id="resource-supabase"></a>[**Supabase MCP**](https://github.com/supabase/mcp) · MCP | MCP officiel pour les schémas, requêtes et configurations de projet Supabase | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-supabase) |
+<!-- /catalog:context -->
 
 <a id="quality"></a>
 ### Tests, revue et sécurité
 
 Vérifier le comportement, relire les changements générés et diagnostiquer les échecs.
 
+<!-- catalog:quality -->
 | Ressource | Quand l'utiliser | Accès / périmètre | Vérifié |
 |---|---|---|---|
 | <a id="resource-agent-qa"></a>[**Agent QA**](https://github.com/vostride/agent-qa) · MCP | Écrire et exécuter des tests web et mobile en langage naturel | FSL-1.1-ALv2. Source disponible avec restriction d'usage concurrent. Coûts de modèle | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-agent-qa) |
@@ -121,24 +130,28 @@ Vérifier le comportement, relire les changements générés et diagnostiquer le
 | <a id="resource-qodo"></a>[**Qodo**](https://www.qodo.ai) | Moteur de revue de code par IA (anciennement CodiumAI) | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-qodo) |
 | <a id="resource-semgrep"></a>[**Semgrep MCP**](https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp) · MCP | Analyse de sécurité MCP via le CLI Semgrep maintenu | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-semgrep) |
 | <a id="resource-sentry"></a>[**Sentry**](https://github.com/getsentry/sentry-mcp) · MCP | Inspecter les erreurs d'application et diagnostiquer les échecs | Functional Source License. Source disponible. Vérifier les conditions de l'offre hébergée | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-sentry) |
+<!-- /catalog:quality -->
 
 <a id="delivery"></a>
 ### Déploiement et exécution
 
 Construire, publier ou exécuter du code dans un environnement adapté.
 
+<!-- catalog:delivery -->
 | Ressource | Quand l'utiliser | Accès / périmètre | Vérifié |
 |---|---|---|---|
 | <a id="resource-cloudflare"></a>[**Cloudflare**](https://github.com/cloudflare/mcp-server-cloudflare) · MCP | Gérer le déploiement d'applications et les ressources cloud | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-cloudflare) |
 | <a id="resource-e2b"></a>[**E2B**](https://github.com/e2b-dev/E2B) | Sandbox cloud sécurisée pour agents IA de niveau entreprise | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-e2b) |
 | <a id="resource-publish-my"></a>[**Publish.my**](https://publish.my/) · Web | Publication de sites statiques pilotée par agents, avec activation par email | Offre gratuite. Sites statiques uniquement. Activation par email | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-publish-my) |
 | <a id="resource-xcode-build-mcp"></a>[**XcodeBuildMCP**](https://github.com/getsentry/XcodeBuildMCP) · MCP | Outils CLI et MCP pour compiler, exécuter et déboguer des projets Apple | Vérifier le prix | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-xcode-build-mcp) |
+<!-- /catalog:delivery -->
 
 <a id="operations"></a>
 ### Espaces de travail et usage des agents
 
 Organiser les sessions, inspecter les exécutions et comprendre l'usage ou la disponibilité.
 
+<!-- catalog:operations -->
 | Ressource | Quand l'utiliser | Accès / périmètre | Vérifié |
 |---|---|---|---|
 | <a id="resource-delta"></a>[**Delta (Zed)**](https://delta.dev/) · Desktop | Lancer des fils d'agents et relire leurs changements dans un espace de travail multijoueur qui relie conversation et historique du code. Compatible avec les dépôts Git existants | Gratuit pendant la bêta publique. Offres payantes prévues. Coûts de modèle séparés | 2026-09-20 |
@@ -149,6 +162,7 @@ Organiser les sessions, inspecter les exécutions et comprendre l'usage ou la di
 | <a id="resource-superagent"></a>[**Superagent**](https://github.com/pungme/superagent-desktop) · Desktop | Utiliser Claude Code ou Codex dans un espace de travail macOS avec outils navigateur et iOS | MIT. macOS Apple Silicon. Abonnement au modèle séparé | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-superagent) |
 | <a id="resource-usage"></a>[**usage**](https://github.com/aqua5230/usage) · Desktop | Voir les quotas des agents de code depuis la barre de menu macOS ou la zone de notification Windows | AGPL-3.0. Coûts de modèle et de fournisseur séparés | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-usage) |
 | <a id="resource-warp"></a>[**Warp Terminal**](https://www.warp.dev/terminal) | Utiliser un terminal orienté agents et inspecter les workflows de code | Téléchargement du terminal. Vérifier le prix de l'usage IA | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-warp) |
+<!-- /catalog:operations -->
 
 <a id="learning"></a>
 ## Apprendre et pratiquer
@@ -227,7 +241,7 @@ Pour l'apprentissage comme pour la production, associez les instructions en lang
 
 [Proposez une ressource via une issue](../../issues/new). Chaque ajout doit démontrer **une pertinence directe, des preuves publiques utilisables, une valeur distincte, un accès et des affirmations transparents, et une maintenance ou une complétude substantielle**. Les produits payants et les auto-soumissions suivent les mêmes règles. Déclarez vos affiliations et les limites importantes. Les étoiles GitHub ne garantissent pas l'admission.
 
-Lisez la [politique de curation](docs/curation-policy.md) et le [guide de contribution](.github/CONTRIBUTING.md). Les échecs manifestes sont rejetés avec leurs raisons. Les cas incertains restent ouverts pour revue. Les changements acceptés sont synchronisés en anglais, coréen et japonais, et les issues ne sont fermées qu'après publication réussie.
+Lisez la [politique de curation](docs/curation-policy.md) et le [guide de contribution](.github/CONTRIBUTING.md). Les échecs manifestes sont rejetés avec leurs raisons. Les cas incertains restent ouverts pour revue. Les changements acceptés sont synchronisés en anglais, français, coréen et japonais, et les issues ne sont fermées qu'après publication réussie.
 
 Les workflows hebdomadaires et de traitement des issues utilisent [Pi](https://pi.dev/) avec Kimi ou Qwen et [Exa Search](https://exa.ai/). [Automatisation et configuration](docs/automation.md) explique l'implémentation et les contrôles du mainteneur.
 

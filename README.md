@@ -241,7 +241,7 @@ For learning and production work, pair natural-language instructions with unders
 
 [Suggest a resource through an issue](../../issues/new). Every addition must pass **direct relevance, usable public evidence, distinct value, transparent access/claims, and maintenance or substantive completeness**. Paid products and self-submissions follow the same rules; disclose affiliations and material limitations. GitHub stars do not guarantee admission.
 
-Read the [curation policy](docs/curation-policy.md) and [contribution guide](.github/CONTRIBUTING.md). Clear failures are rejected with reasons; uncertain cases remain open for review. Accepted changes are synchronized in English, Korean, and Japanese and issues are closed only after publishing succeeds.
+Read the [curation policy](docs/curation-policy.md) and [contribution guide](.github/CONTRIBUTING.md). Clear failures are rejected with reasons; uncertain cases remain open for review. Accepted changes are synchronized in English, French, Korean, and Japanese and issues are closed only after publishing succeeds.
 
 The weekly and issue workflows use [Pi](https://pi.dev/) with Kimi or Qwen and [Exa Search](https://exa.ai/). [Automation and configuration](docs/automation.md) explains the implementation and maintainer controls.
 

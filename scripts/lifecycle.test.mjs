@@ -36,7 +36,7 @@ test("the visible catalog contains no known excluded sources and every core row 
   const excluded = new Set(catalog.resources.filter(r => r.location === "excluded").flatMap(r => [r.url, ...r.aliases]).map(normalizeResourceUrl));
   // A consolidated old identity can point at the same current product as its retained row.
   for (const r of catalog.resources.filter(r => r.status === "active" && r.location !== "excluded")) excluded.delete(normalizeResourceUrl(r.url));
-  for (const file of ["README.md", "README.ko.md", "README.ja.md"]) {
+  for (const file of ["README.md", "README.fr.md", "README.ko.md", "README.ja.md"]) {
     const text = await readFile(new URL(`../${file}`, import.meta.url), "utf8");
     assertShortlistCapacity(text);
     for (const match of text.matchAll(/<!-- catalog:\w+ -->\n([\s\S]*?)<!-- \/catalog:\w+ -->/g)) {

@@ -11,6 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```
 awesome-vibecoding/
 ├── README.md                    # English source (edit this only)
+├── README.fr.md                 # French translation (auto-generated)
 ├── README.ko.md                 # Korean translation (auto-generated)
 ├── README.ja.md                 # Japanese translation (auto-generated)
 ├── package.json                 # Pi SDK dependencies (@earendil-works/pi-coding-agent)
@@ -41,7 +42,7 @@ awesome-vibecoding/
 ```
 /translate
 ```
-Runs parallel agents to sync README.md changes to Korean and Japanese versions.
+Runs parallel agents to sync README.md changes to French, Korean and Japanese versions.
 
 ### GitHub Actions Workflows (Pi SDK)
 - **weekly-update.yml**: Runs every Sunday, uses Exa Search API with Pi and Kimi (default) or Qwen to find new tools, commits directly to main. Script: `scripts/weekly-update.mjs`
@@ -64,6 +65,7 @@ The `PostToolUse` hook (`translate-readme.sh`) monitors Edit/Write operations an
 ## Translation Guidelines
 
 - Keep technical terms, URLs, and product names in English
+- French: Use French typography (guillemets « », accented capitals) and short, plain sentences
 - Korean: Add space after **bold text** followed by Korean characters
 - Japanese: Use appropriate particles and natural phrasing
 - Preserve all markdown formatting exactly

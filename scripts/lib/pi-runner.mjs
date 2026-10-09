@@ -150,7 +150,7 @@ export async function runAutomation({ prompt, cwd = process.cwd(), env = process
       const refreshed = { ...(updates || originals) };
       const date = new Date().toISOString().slice(0, 10);
       for (const file of README_FILES) {
-        const language = file === "README.ko.md" ? "ko" : file === "README.ja.md" ? "ja" : "en";
+        const language = file === "README.fr.md" ? "fr" : file === "README.ko.md" ? "ko" : file === "README.ja.md" ? "ja" : "en";
         refreshed[file] = refreshRecentUpdates(refreshed[file], date, language);
       }
       if (README_FILES.some(file => refreshed[file] !== originals[file])) updates = refreshed;

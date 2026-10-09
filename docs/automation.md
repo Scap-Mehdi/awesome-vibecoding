@@ -8,7 +8,7 @@ GitHub Actions uses the [Pi SDK](https://pi.dev/docs/latest/sdk) to run Kimi or 
 
 | Workflow | Trigger | Behavior |
 |---|---|---|
-| Weekly README Update | Sunday 00:00 UTC or manual dispatch | Research resources, process pending candidates, review lifecycle first and add at most one entry, update three languages |
+| Weekly README Update | Sunday 00:00 UTC or manual dispatch | Research resources, process pending candidates, review lifecycle first and add at most one entry, update four languages |
 | Auto Process Issue | A human opens an issue with an addition label or URL, or adds the addition label | Validate the URL, assess quality, add and translate, commit and close |
 | Issue Manual Review Handler | Maintainer comments exactly `/approve`, or `/reject [reason]` | Retry an approved resource or reject it |
 | Test Automation | Changes to scripts, dependencies, prompts, or workflows | Run offline regression and Pi SDK integration tests |
@@ -64,7 +64,7 @@ flowchart LR
     PI --> READ[Read README snapshots]
     PI --> PROPOSAL[Submit structured edits]
     PROPOSAL --> CHECK[Validate result and translations]
-    CHECK --> WRITE[Write all three READMEs]
+    CHECK --> WRITE[Write all four READMEs]
     WRITE --> COMMIT[Git commit and push]
 ```
 
@@ -73,7 +73,7 @@ Pi runs with an in-memory session and private temporary configuration. It does n
 | Tool | Access |
 |---|---|
 | `lookup_resource` | Read known lifecycle decisions, renamed identities, and extended catalog membership |
-| `read_readme` | Read snapshots of the three allowed README files |
+| `read_readme` | Read snapshots of the four allowed README files |
 | `search_web` | Query the fixed Exa endpoint, up to 12 searches per run |
 | `submit_result` | Propose exact text replacements and a structured status |
 | `read_candidates` | Weekly runs only: read pending candidates from the cache |
@@ -82,7 +82,7 @@ Pi runs with an in-memory session and private temporary configuration. It does n
 
 Issue content and search results are untrusted data. Proposed edits stay in memory until the agent ends successfully. A missing result, error, truncated response, timeout, search failure, or turn-limit breach prevents publishing. Failed issue runs receive `needs-review`; they are not closed as successful.
 
-Validation requires edits to all three languages, unique replacement anchors, preserved existing links, matching newly added resource URLs, and valid table column counts. The requested issue URL must appear in every language. Non-processed results cannot contain edits. Concurrent local changes are detected before writing.
+Validation requires edits to all four languages, unique replacement anchors, preserved existing links, matching newly added resource URLs, and valid table column counts. The requested issue URL must appear in every language. Non-processed results cannot contain edits. Concurrent local changes are detected before writing.
 
 The [curation policy](curation-policy.md) also requires five curation checks plus new-user availability and no-announced-sunset checks and evidence URLs from the run's Exa results. Paid products and self-submissions receive the same review. A maintainer retry does not bypass these conditions. Temporary URL-access failures remain open for review.
 
@@ -128,7 +128,7 @@ Existing `.claude` translation helpers remain available for local editing. CI tr
 | Exa failure | API key, quota, network response; the run fails instead of claiming current research |
 | No accepted submission | Actions log, model output limits, and proposed-edit validation |
 | Resource already listed | Review by URL and name; manual approval does not bypass duplicate checks |
-| Translation mismatch | Fix the complete three-language proposal and retry |
+| Translation mismatch | Fix the complete four-language proposal and retry |
 | Linter rejects concurrency queue | actionlint 1.7.12 lacks this GitHub option; CI ignores only that exact unsupported-key diagnostic |
 
 Do not rerun a failed workflow blindly after a partial GitHub-side failure. Inspect whether its commit was pushed before retrying an issue to avoid duplicate processing.

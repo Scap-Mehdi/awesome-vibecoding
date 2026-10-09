@@ -6,7 +6,7 @@
 [![Issues Welcome](https://img.shields.io/badge/Issues-welcome-brightgreen.svg)](../../issues/new)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-*Language: [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
+*Language: [English](README.md) | [Français](README.fr.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
 
 **AIでソフトウェアを作る**ための、レビュー済みの簡潔な入門リストです。以下の主要ツールは **2026-09-18** 時点で利用可能なサービスや実装があり、提供元の一次情報による裏付けを確認しています。終了が判明したもの、アーカイブ済みの実装、未確認事項が残る項目はこの候補一覧から除外しています。
 

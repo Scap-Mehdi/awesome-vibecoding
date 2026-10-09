@@ -6,7 +6,7 @@
 [![Issues Welcome](https://img.shields.io/badge/Issues-welcome-brightgreen.svg)](../../issues/new)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-*Language: [English](README.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
+*Language: [English](README.md) | [Français](README.fr.md) | [한국어](README.ko.md) | [日本語](README.ja.md)*
 
 **AI로 소프트웨어를 만드는 데** 필요한 출발점을 간결하게 선별하고 검토했습니다. 아래 핵심 도구는 **2026-09-18** 기준으로 실제 이용 가능한 제품·서비스와 이를 뒷받침하는 공식 근거가 확인되었습니다. 종료가 알려진 서비스, 아카이브된 구현, 확인이 끝나지 않은 항목은 이 목록에서 제외했습니다.
 

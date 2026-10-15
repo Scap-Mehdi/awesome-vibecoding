@@ -27,16 +27,16 @@ Recent reviews and material changes from the last 30 days, newest first. A revie
 <!-- recent-updates:start -->
 | Verified on | Update | What changed |
 |---|---|---|
+| 2026-10-11 | [Massvai](#resource-massvai) | Reviewed addition: prompt-to-full-stack Next.js app builder with Supabase, live preview, GitHub export and Vercel deploy; free starting credits, paid plans. |
+| 2026-10-11 | [Coderblock](#resource-coderblock) | Reviewed addition: conversational builder for full-stack web apps with per-app Supabase backends; free starting credits, paid tiers. |
+| 2026-10-11 | [Universal Modder Field Guide: Codex setup](#resource-universal-modder-field-guide-codex) | Reviewed addition: unofficial Codex installation and verification guide for the Universal Modder game-modding toolkit; free reading. |
+| 2026-10-10 | [DropTheHassle](#resource-dropthehassle) | Reviewed addition: agent publishes a built site to a free HTTPS link without an account; paid custom domains via a human payment link. |
 | 2026-10-04 | [VDLC](#resource-vdlc) | Reviewed addition: development lifecycle framework that treats intent and context as primary artifacts, with human gates at plan, review and deploy; trilingual guide. |
 | 2026-09-23 | [Prbl](#resource-prbl) | Reviewed addition: security scanner for flaws common in AI-generated code; free scan and GitHub Action, paid rewriter. |
 | 2026-09-20 | [Delta (Zed)](#resource-delta) | Reviewed addition: multiplayer agent-coding workspace with thread-based review; public beta, free during beta. |
 | 2026-09-18 | [Shep](#resource-shep) | Reviewed addition: local-first orchestrator that runs parallel coding agents in isolated Git worktrees through to draft PRs. |
 | 2026-09-18 | [Lifecycle cleanup](docs/lifecycle-review-2026-09-18.md) | Removed unavailable/new-user-blocked entries, corrected canonical products, and reduced the core tool list from 156 to 40. |
 | 2026-09-18 | [Pi](#resource-pi) | Reviewed addition: extensible MIT terminal coding agent with multi-provider models and an SDK. |
-| 2026-09-18 | [NextReset](docs/verified-catalog.md#resource-nextreset) | Reviewed addition: unofficial public reset history and local countdowns; forecasts are not endorsed. |
-| 2026-09-18 | [Superagent](#resource-superagent) | Reviewed addition: macOS coding-agent workspace with browser and iOS workflows. |
-| 2026-09-18 | [Publish.my](#resource-publish-my) | Reviewed addition: agent-oriented static-site publishing; email activation required. |
-| 2026-09-18 | [Agent QA](#resource-agent-qa) | Reviewed addition: web/mobile test workflows; FSL-1.1-ALv2 is identified. |
 <!-- recent-updates:end -->
 
 </details>
@@ -90,8 +90,10 @@ Create a first application or interface from a description or design.
 | Resource | When to use it | Access / scope | Verified |
 |---|---|---|---|
 | <a id="resource-bolt-new"></a>[**Bolt.new**](https://bolt.new/) · Web | Natural language app building by StackBlitz | Check pricing | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-bolt-new) |
+| <a id="resource-coderblock"></a>[**Coderblock**](https://coderblock.ai/) · Web | Build a full-stack web app by chatting, with a per-app Supabase backend, live preview and one-click deploy | Free starting credits (lifetime allowance); paid plans from about $20/mo; check pricing | 2026-10-11 |
 | <a id="resource-dyad"></a>[**Dyad**](https://github.com/dyad-sh/dyad) · Desktop | Build applications locally with configurable model providers | Check pricing; local desktop app and model-provider costs. | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-dyad) |
 | <a id="resource-lovable"></a>[**Lovable**](https://lovable.dev/) · Web | Full-stack app generation with Supabase | Check pricing | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-lovable) |
+| <a id="resource-massvai"></a>[**Massvai**](https://massvai.com) · Web | Turn a prompt into a full-stack Next.js app with Supabase, live preview, GitHub code export and Vercel deploy | Free plan with 100 welcome credits; paid plans add monthly credits; check pricing | 2026-10-11 |
 | <a id="resource-onlook"></a>[**Onlook**](https://www.onlook.com/) · Web | Edit application interfaces visually while working with code | Check pricing | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-onlook) |
 | <a id="resource-replit"></a>[**Replit**](https://replit.com/) · Web | Build and iterate on applications with Replit Agent | Check pricing | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-replit) |
 | <a id="resource-v0"></a>[**v0**](https://v0.app/) · Web | Vercel's AI for UI/React generation | Check pricing | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-v0) |
@@ -141,6 +143,7 @@ Build, publish, or run code in an appropriate execution environment.
 | Resource | When to use it | Access / scope | Verified |
 |---|---|---|---|
 | <a id="resource-cloudflare"></a>[**Cloudflare**](https://github.com/cloudflare/mcp-server-cloudflare) · MCP | Manage application deployment and cloud resources | Check pricing | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-cloudflare) |
+| <a id="resource-dropthehassle"></a>[**DropTheHassle**](https://dropthehassle.com) · CLI / MCP | Agent publishes a built site to a free HTTPS link with no account; human approves optional custom domain or email via a payment link | Free deploys; domains €12–€25/yr, email from €5/mo; MIT client; agent cannot pay | 2026-10-10 |
 | <a id="resource-e2b"></a>[**E2B**](https://github.com/e2b-dev/E2B) | Secure cloud sandbox environment for enterprise-grade AI agents | Check pricing | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-e2b) |
 | <a id="resource-publish-my"></a>[**Publish.my**](https://publish.my/) · Web | Agent-driven static-site publishing with email activation | Free tier; static sites only; email activation | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-publish-my) |
 | <a id="resource-xcode-build-mcp"></a>[**XcodeBuildMCP**](https://github.com/getsentry/XcodeBuildMCP) · MCP | CLI and MCP tools for building, running and debugging Apple-platform projects | Check pricing | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-xcode-build-mcp) |
@@ -199,6 +202,8 @@ Use these when a project already exists and you need to solve a specific problem
 | <a id="resource-agentic-coding-armin-ronacher"></a>[**Agentic Coding Recommendations (Armin Ronacher)**](https://lucumr.pocoo.org/2025/6/12/agentic-coding/) · Guide | Practical agent workflows and testing advice; 2025 practitioner perspective | Free reading; check reuse terms | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-agentic-coding-armin-ronacher) |
 | <a id="resource-here-s-how-i-use-llms-to-help-me-write-code-simon-willison"></a>[**Here's how I use LLMs to help me write code (Simon Willison)**](https://simonwillison.net/2025/Mar/11/using-llms-for-code/) · Guide | Iterative coding and QA practices; 2025 tool examples are historical | Free reading; check reuse terms | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-here-s-how-i-use-llms-to-help-me-write-code-simon-willison) |
 | <a id="resource-secure-vibe-coding-guide-csa"></a>[**Secure Vibe Coding Guide (CSA)**](https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide) · Guide | Security checklist covering secrets, authorization, validation and review | Free reading; check reuse terms | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-secure-vibe-coding-guide-csa) |
+
+| <a id="resource-universal-modder-field-guide-codex"></a>[**Universal Modder Field Guide: Codex setup (unofficial)**](https://universalmodder.dev/guides/codex/) · Guide | Install the Universal Modder toolkit with Codex and verify plugin registration, skill discovery and the um CLI before editing game files | Free reading; unofficial companion to the upstream MIT toolkit; model and media-generation costs separate | 2026-10-11 |
 
 <a id="concepts-research"></a>
 ### Concepts & Research

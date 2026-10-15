@@ -27,16 +27,16 @@
 <!-- recent-updates:start -->
 | 確認日 | 更新項目 | 変更内容 |
 |---|---|---|
+| 2026-10-11 | [Massvai](#resource-massvai) | レビュー後に追加：プロンプトからSupabase連携のフルスタックNext.jsアプリを生成するビルダー。ライブプレビュー、GitHubへのコードエクスポート、Vercelデプロイに対応。無料の開始クレジットと有料プランあり。 |
+| 2026-10-11 | [Coderblock](#resource-coderblock) | レビュー後に追加：アプリごとのSupabaseバックエンドを備えた対話型フルスタックWebアプリビルダー。無料の開始クレジットと有料プランあり。 |
+| 2026-10-11 | [Universal Modder Field Guide: Codexセットアップ](#resource-universal-modder-field-guide-codex) | レビュー後に追加：Universal ModderゲームMODツールキット向けの非公式Codexインストール・検証ガイド。閲覧無料。 |
+| 2026-10-10 | [DropTheHassle](#resource-dropthehassle) | レビュー後に追加：エージェントがビルド済みサイトをアカウント不要の無料HTTPSリンクに公開。有料カスタムドメインは人の支払いリンクで処理。 |
 | 2026-10-04 | [VDLC](#resource-vdlc) | レビュー後に追加：意図とコンテキストを一次成果物とする開発ライフサイクルの枠組み。計画・レビュー・デプロイのゲートは人が担当。3言語ガイド。 |
 | 2026-09-23 | [Prbl](#resource-prbl) | レビュー後に追加：AI生成コードに多い脆弱性を検出するスキャナー。無料スキャンとGitHub Action、リライターは有料。 |
 | 2026-09-20 | [Delta (Zed)](#resource-delta) | レビュー後に追加：スレッドベースのレビューを備えたマルチプレイヤーのエージェントコーディングワークスペース。公開ベータ期間は無料。 |
 | 2026-09-18 | [Shep](#resource-shep) | レビュー後に追加：分離したGitワークツリーで複数のコーディングエージェントを並列実行し、ドラフトPRまで自動化するローカルファーストのオーケストレーター。 |
 | 2026-09-18 | [提供状況に基づく整理](docs/lifecycle-review-2026-09-18.md) | 利用できない項目や新規利用できない項目を除外し、正式な製品情報を修正。主要ツールを156件から40件に絞りました。 |
 | 2026-09-18 | [Pi](#resource-pi) | レビュー後に追加：マルチプロバイダーモデルとSDKを備えたMITライセンスの拡張型ターミナルコーディングエージェント。 |
-| 2026-09-18 | [NextReset](docs/verified-catalog.md#resource-nextreset) | レビュー後に追加：非公式の公開リセット履歴とローカルのカウントダウン。予測の正確性を保証するものではありません。 |
-| 2026-09-18 | [Superagent](#resource-superagent) | レビュー後に追加：ブラウザとiOSのワークフローに対応したmacOS用コーディングエージェントワークスペース。 |
-| 2026-09-18 | [Publish.my](#resource-publish-my) | レビュー後に追加：エージェント向け静的サイト公開サービス。メールによる利用開始手続きが必要です。 |
-| 2026-09-18 | [Agent QA](#resource-agent-qa) | レビュー後に追加：Web・モバイルのテストワークフロー。FSL-1.1-ALv2ライセンスを明記しています。 |
 <!-- recent-updates:end -->
 
 </details>
@@ -90,8 +90,10 @@
 | リソース | 用途 | 利用方法・範囲 | 確認日 |
 |---|---|---|---|
 | <a id="resource-bolt-new"></a>[**Bolt.new**](https://bolt.new/) · Web | StackBlitzによる自然言語アプリ構築 | 料金を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-bolt-new) |
+| <a id="resource-coderblock"></a>[**Coderblock**](https://coderblock.ai/) · Web | チャットでフルスタックWebアプリを構築。アプリごとのSupabaseバックエンド、ライブプレビュー、ワンクリックデプロイに対応 | 無料の開始クレジット（生涯分の割り当て）；有料プランは月約$20から；料金を要確認 | 2026-10-11 |
 | <a id="resource-dyad"></a>[**Dyad**](https://github.com/dyad-sh/dyad) · Desktop | モデルプロバイダーを設定してローカルでアプリを構築 | 料金を要確認；ローカルデスクトップアプリとモデルプロバイダーの費用 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-dyad) |
 | <a id="resource-lovable"></a>[**Lovable**](https://lovable.dev/) · Web | Supabaseを使用したフルスタックアプリ生成 | 料金を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-lovable) |
+| <a id="resource-massvai"></a>[**Massvai**](https://massvai.com) · Web | プロンプトからSupabase連携のフルスタックNext.jsアプリを生成。ライブプレビュー、GitHubへのコードエクスポート、Vercelデプロイに対応 | 無料プランに100のウェルカムクレジット；有料プランは月間クレジットを追加；料金を要確認 | 2026-10-11 |
 | <a id="resource-onlook"></a>[**Onlook**](https://www.onlook.com/) · Web | コードを扱いながらアプリのインターフェースを視覚的に編集 | 料金を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-onlook) |
 | <a id="resource-replit"></a>[**Replit**](https://replit.com/) · Web | Replit Agentでアプリを構築し、反復改善 | 料金を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-replit) |
 | <a id="resource-v0"></a>[**v0**](https://v0.app/) · Web | VercelのUI/React生成AI | 料金を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-v0) |
@@ -141,6 +143,7 @@
 | リソース | 用途 | 利用方法・範囲 | 確認日 |
 |---|---|---|---|
 | <a id="resource-cloudflare"></a>[**Cloudflare**](https://github.com/cloudflare/mcp-server-cloudflare) · MCP | アプリのデプロイとクラウドリソースを管理 | 料金を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-cloudflare) |
+| <a id="resource-dropthehassle"></a>[**DropTheHassle**](https://dropthehassle.com) · CLI / MCP | エージェントがビルド済みサイトをアカウント不要の無料HTTPSリンクに公開；カスタムドメインやメールは人が支払いリンクで承認 | 無料デプロイ；ドメイン年€12–€25、メール月€5～；MITクライアント；エージェントは支払い不可 | 2026-10-10 |
 | <a id="resource-e2b"></a>[**E2B**](https://github.com/e2b-dev/E2B) | エンタープライズグレードのAIエージェント向けセキュアなクラウドサンドボックス環境 | 料金を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-e2b) |
 | <a id="resource-publish-my"></a>[**Publish.my**](https://publish.my/) · Web | メールによる利用開始手続きを備えた、エージェント主導の静的サイト公開サービス | 無料枠あり；静的サイトのみ；メールによる利用開始手続き | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-publish-my) |
 | <a id="resource-xcode-build-mcp"></a>[**XcodeBuildMCP**](https://github.com/getsentry/XcodeBuildMCP) · MCP | Appleプラットフォーム向けプロジェクトのビルド・実行・デバッグ用CLIとMCPツール | 料金を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-xcode-build-mcp) |
@@ -199,6 +202,8 @@
 | <a id="resource-agentic-coding-armin-ronacher"></a>[**Agentic Coding Recommendations (Armin Ronacher)**](https://lucumr.pocoo.org/2025/6/12/agentic-coding/) · ガイド | 実践的なエージェントワークフローとテストの助言。2025年の実務者の視点 | 閲覧無料；再利用条件を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-agentic-coding-armin-ronacher) |
 | <a id="resource-here-s-how-i-use-llms-to-help-me-write-code-simon-willison"></a>[**Here's how I use LLMs to help me write code (Simon Willison)**](https://simonwillison.net/2025/Mar/11/using-llms-for-code/) · ガイド | 反復的なコーディングと品質確認の実践。ツールの例は2025年当時のもの | 閲覧無料；再利用条件を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-here-s-how-i-use-llms-to-help-me-write-code-simon-willison) |
 | <a id="resource-secure-vibe-coding-guide-csa"></a>[**Secure Vibe Coding Guide (CSA)**](https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide) · ガイド | 秘密情報、認可、入力検証、レビューを扱うセキュリティチェックリスト | 閲覧無料；再利用条件を要確認 | [2026-09-18](docs/lifecycle-review-2026-09-18.md#resource-secure-vibe-coding-guide-csa) |
+
+| <a id="resource-universal-modder-field-guide-codex"></a>[**Universal Modder Field Guide: Codexセットアップ（非公式）**](https://universalmodder.dev/guides/codex/) · ガイド | CodexでUniversal Modderツールキットを導入し、ゲームファイルを変更する前にプラグイン登録・スキル検出・um CLIを確認する手順 | 閲覧無料；上流のMITツールキットの非公式ガイド；モデルとメディア生成の費用は別途 | 2026-10-11 |
 
 <a id="concepts-research"></a>
 ### 概念と研究
